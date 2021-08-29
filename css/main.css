@@ -1,0 +1,114 @@
+@font-face {
+    font-family: vazir;
+    src: url(../fonts/Vazir.ttf);
+  }
+  body{
+    font-family: vazir;
+  }
+  .navbar {
+      background-color: #1172d3;
+  }
+  .mosalas{
+    width: 10;
+    height: 10;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-bottom: 5px solid #31ac0b;
+  }
+  
+  .btn {
+      border: 10;
+      color: white;
+      background-color: #46c83c;
+  }
+  
+  .title-slider {
+      position: relative;
+      bottom: 70px;
+      font-size: 32pt;
+      border-bottom: 2px solid white;
+  }
+  .ph-1 {
+      background-color: #f4f6f8;
+      padding: 10px;
+      text-align: justify;
+  }
+  
+  .titre {
+      position: absolute;
+      right: 120;
+      top: 35;
+  }
+  
+  .matn {
+      position: absolute;
+      right: 120;
+      top: 85;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .border-main{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+  
+  }
+
+  /* kar */
+  img.logo-left:hover{
+    cursor: pointer;
+    opacity: 50%;
+  }
+/* kar2 */
+  nav a:hover {
+    background-color: #444f59;
+    line-height: 47px;
+   
+  }
+.portabl{
+  margin-right: 170px; ;
+}
+  
+  /* start footer */
+  footer{
+    background-image: url(../img/footer-background.jpg);
+    background-size: cover;
+  }
+  /* end footer */
+  
+  @media screen and (max-width:1080px) {
+    nav{
+        padding: 0;
+    }
+}
+   @media screen and (max-width:1110px) {
+    .slider2 .carousel-control-next-icon{
+      right: 550%;
+    }
+  }
+@media screen and (max-width:600px) {
+    .card2{
+        padding: 30px;
+      }
+
+    .titre {
+        position: absolute;
+        right: 50px;
+        top: 10px;
+        font-size: 10px;
+    }
+    .slider1 .carousel-control-next-icon {
+      right: 570%;
+      background-image: url(../img/angle-right.png);
+    }
+    .matn {
+        position: absolute;
+        right: 51px;
+        top: 25px;
+        font-size: 7px;
+    }
+}

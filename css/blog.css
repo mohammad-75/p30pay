@@ -1,0 +1,40 @@
+body {
+    background-color: #f4f6f8;
+}
+
+.poz {
+    transform: skew(-20deg);
+    background: rgb(236, 236, 236);
+    font-size: 11px;
+
+}
+
+.main-loc {
+    position: absolute;
+
+}
+
+.loc {
+    position: relative;
+    top: -10px;
+    color: #a1a1a1;
+}
+
+.nav-white {
+    height: 40;
+}
+
+.Search-box {
+    border-bottom: 1px solid #a1a1a1 !important;
+ 
+
+}
+
+@media screen and (max-width:550px) {
+    .nav-white{
+height: 60;
+    }
+    .header-r{
+        width: 100%;
+    }
+}
