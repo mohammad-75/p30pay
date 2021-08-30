@@ -51,7 +51,13 @@
   margin-right: 15px;
   border-right: 2px solid #ccc;
 }
-
+.button-r{
+ position: absolute;
+ left: -15; 
+}
+.icon{
+  color: 136eca;
+}
 .upper-footer img {
   border-right: solid #ccc;
   object-fit: unset;
@@ -62,22 +68,23 @@
   filter: none;
   opacity: 10px;
 }
-.card :hover{
-  cursor: pointer ;
-  background-color: blue;
-}
-/* .card-box:hover {
-  background-color: rgb(168, 168, 168) ;
-}
 
-.card2 .col-lg-3 {
+ .card-top:hover {
+  background-color: rgb(238, 236, 236) !important ;
+  transition-duration: .5s;
+}
+.card-bot-bot:hover{
+  background-color: #126eca !important ;
+  transition-duration: .5s;
+}
+/* .card2 .col-lg-3 {
   padding-top: 30px ;
 }
 
 .card2 .col-lg-3:hover {
   background-color: #1172D3;
   transition-duration: .5s;
-} */
+ */
 
 /* end card2 */
 /* start slider2 */

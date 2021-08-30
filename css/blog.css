@@ -29,6 +29,10 @@ body {
  
 
 }
+.bot-green{
+    margin-top: -10;
+  
+}
 
 @media screen and (max-width:550px) {
     .nav-white{
