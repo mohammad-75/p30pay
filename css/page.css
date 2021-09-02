@@ -1,0 +1,15 @@
+body{
+    background-color: #f4f6f8;
+}
+.left-box{
+    background-color: #ffffe5;
+    border: 2px #f7efd2 solid;
+}
+
+.left-box p{
+    text-align: justify;
+    color: #74673a;
+}
+h3{
+    color: #74673a;
+}
