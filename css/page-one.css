@@ -7,3 +7,6 @@
 .icon{
     color: #136eca;
   }
+  form input , form textarea{
+    border:1px #ccc solid;
+}

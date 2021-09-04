@@ -50,24 +50,24 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse  " id="navbarNav">
-                    <ul class="navbar-nav justify-content-between align-items-center">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-white" aria-current="page" href="#">صفحه اصلی</a>
+                            <a class="nav-link text-white" aria-current="page" href="./index.html">صفحه اصلی</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">قوانین</a>
+                            <a class="nav-link text-white" href="error.html">قوانین</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white " href="#">سوالات متداول</a>
+                            <a class="nav-link text-white " href="error.html">سوالات متداول</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">ارتباط با مدیریت</a>
+                            <a class="nav-link text-white" href="error.html">ارتباط با مدیریت</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">بلاگ</a>
+                            <a class="nav-link text-white" href="./blog.html">بلاگ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">درباره ما</a>
+                            <a class="nav-link text-white" href="./Contact.html">درباره ما</a>
                         </li>
                     </ul>
                     <div>
@@ -181,71 +181,133 @@
                             </div>
                         </div>
                     </div>
+                   
                 </div>
+                
             </div>
+            <section class="mt-5 mx-auto bg-white container">
+                <div class="d-flex p-3">
+                  <img src="img/idea.jpg" width="26" height="26" class="ms-2">
+                  <h3>ارسال نظر</h3>
+                </div>
+                <div>
+                  <form class="mx-auto">
+                    <div class="d-flex flex-wrap flex-lg-nowrap p-3">
+                    <div class="right-input col-lg-3">
+                      <input
+                    type="text"
+                    name="fullname"
+                    id="fullname"
+                    placeholder="نام و نام خانوادگی شما"
+                    class="p-2 my-2 rounded-1 bg-light"
+                  />
+                  
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="ایمیل شما"
+                      class="p-2 ms-1 my-2 rounded-1 bg-light"
+                    />
+    
+                    <input
+                      type="url"
+                      name="address"
+                      id="address"
+                      placeholder="آدرس سایت ( اختیاری )"
+                      class="p-2 my-2 rounded-1 bg-light"
+                    />
+                  
+                    </div>
+                    <textarea
+                    name="message"
+                    id="message"
+                    rows="6"
+                    placeholder=" توضیحات شما"
+                    class="my-2 rounded-1 bg-light col-lg-9"
+                  ></textarea>
+                </div>
+                <div class="p-3 d-flex flex-wrap justify-content-between">
+                  <div class="d-flex flex-wrap">
+                    <div class="ms-2">
+                <input type="checkbox" name="checkbox-right" id="checkbox-right">
+                <label for="checkbox-right">پيگير اين موضوع شويد.</label>
+              </div>
+                <div>
+                <input type="checkbox" name="checkbox-left" id="checkbox-left">
+                <label for="checkbox-left">عضویت در خبرنامه سایت</label>
+              </div>
+              </div>
+              <div>
+                <button class="text-white border-0 p-1 px-5 ms-2 rounded-1" style="background-color: #81c33a;">ارسال نظر</button>
+              </div>
+              </div>
+                  </form>
+                </div>
+            </section>
         </div>
         <!-- end slider2 -->
         <footer class="text-white d-flex flex-wrap justify-content-between p-5 flex-row-reverse ">
             <div class="left-box col-md-4 mx-auto" dir="rtl">
-              <h3>نماد های اعتماد</h3>
-              <div>
-                <img src="img/nezamsenfi.png" width="30%" />
-                <img src="img/samandehi_footer.png" width="30%" />
-                <img src="img/namad.png" width="30%" />
-              </div>
+                <h3>نماد های اعتماد</h3>
+                <div>
+                    <img src="img/nezamsenfi.png" width="30%" />
+                    <img src="img/samandehi_footer.png" width="30%" />
+                    <img src="img/namad.png" width="30%" />
+                </div>
             </div>
             <div class="center-box col-md-4 mx-auto" dir="rtl">
-              <h3>آخرین مطالب بلاگ</h3>
-              <div class="d-flex flex-wrap my-1">
-                <button class="btn-primary h-100 mx-1">17 دیماه 1395</button>
-                <p>قیمت محصولات سایت به روز شدند.</p>
-              </div>
-              <div class="d-flex flex-wrap my-1">
-                <button class="btn-primary h-100 mx-1">16 دیماه 1395</button>
-                <p>چرا احراز هویت؟</p>
-              </div>
-              <div class="d-flex flex-wrap my-1">
-                <button class="btn-primary h-100 mx-1">13 دیماه 1395</button>
-                <p>نحوه ی خرید و فروش پرفکت مانی</p>
-              </div>
-              <div class="d-flex flex-wrap my-1">
-                <button class="btn-primary h-100 mx-1">10 دیماه 1395</button>
-                <p>سوالات بیت کوینی</p>
-              </div>
+                <h3>آخرین مطالب بلاگ</h3>
+                <div class="d-flex flex-wrap my-1">
+                    <button class="btn-primary h-100 mx-1">17 دیماه 1395</button>
+                    <p>قیمت محصولات سایت به روز شدند.</p>
+                </div>
+                <div class="d-flex flex-wrap my-1">
+                    <button class="btn-primary h-100 mx-1">16 دیماه 1395</button>
+                    <p>چرا احراز هویت؟</p>
+                </div>
+                <div class="d-flex flex-wrap my-1">
+                    <button class="btn-primary h-100 mx-1">13 دیماه 1395</button>
+                    <p>نحوه ی خرید و فروش پرفکت مانی</p>
+                </div>
+                <div class="d-flex flex-wrap my-1">
+                    <button class="btn-primary h-100 mx-1">10 دیماه 1395</button>
+                    <p>سوالات بیت کوینی</p>
+                </div>
             </div>
             <div class="right-box col-md-4 mx-auto" dir="rtl">
-              <h3>اطلاعات تماس</h3>
-              <p>
-                دفتر شیراز : 20 متری سینما سعدی ، خیابان اردیبهشت غربی ساختمان 57
-                طبقه 3 واحد 5
-              </p>
-              <div class="d-flex">
-                <img src="img/footer-tel.svg" width="50px" />
-                <p dir="ltr" class="mt-3">071-تلفن : 32340747</p>
-              </div>
-              <div class="d-flex">
-                <img src="img/footer-tv.svg" width="50px" />
-                <p class="me-1 mt-3">موبایل:0936-7183655</p>
-              </div>
+                <h3>اطلاعات تماس</h3>
+                <p>
+                    دفتر شیراز : 20 متری سینما سعدی ، خیابان اردیبهشت غربی ساختمان 57
+                    طبقه 3 واحد 5
+                </p>
+                <div class="d-flex">
+                    <img src="img/footer-tel.svg" width="50px" />
+                    <p dir="ltr" class="mt-3">071-تلفن : 32340747</p>
+                </div>
+                <div class="d-flex">
+                    <img src="img/footer-tv.svg" width="50px" />
+                    <p class="me-1 mt-3">موبایل:0936-7183655</p>
+                </div>
             </div>
-          </footer>
-          <div class="d-flex justify-content-around" style="background-color: #3e4952">
+        </footer>
+        <div class="d-flex justify-content-around" style="background-color: #3e4952">
             <p class="text-center text-white">
-              تمامی حقوق این سایت برای شرکت
-              <span class="text-success"> معینیوآی آر</span> محفوظ است و هرگونه کپی
-              برداری از طرح و مطلب سایت پیگرد قانونی دارد
+                تمامی حقوق این سایت برای شرکت
+                <span class="text-success"> معینیوآی آر</span> محفوظ است و هرگونه کپی
+                برداری از طرح و مطلب سایت پیگرد قانونی دارد
             </p>
-          </div>
         </div>
-        <!-- end slider2 -->
-        </div>
-        <script src="./css/bootstrap.bundle.min.js"></script>
-      </body>
-      
-      </html>
     </div>
-    
+    <!-- end slider2 -->
+    </div>
     <script src="./css/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+</div>
+
+<script src="./css/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

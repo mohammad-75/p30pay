@@ -77,15 +77,6 @@
   background-color: #126eca !important ;
   transition-duration: .5s;
 }
-/* .card2 .col-lg-3 {
-  padding-top: 30px ;
-}
-
-.card2 .col-lg-3:hover {
-  background-color: #1172D3;
-  transition-duration: .5s;
- */
-
 /* end card2 */
 /* start slider2 */
 .slider2 .carousel-control-prev-icon {
@@ -96,7 +87,6 @@
   right: 600%;
   background-image: url(../img/angle-right.png);
 }
-
 
 /* end nav */
 .card2 .col-lg-3:hover{

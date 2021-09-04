@@ -67,10 +67,13 @@ img.logo-left:hover {
   cursor: pointer;
   opacity: 50%;
 }
-nav a:hover {
+nav li{
+  height: 60px;
+  vertical-align: middle;
+}
+nav li:hover {
   background-color: #444f59;
-  line-height: 47px;
-
+  line-height: 60px;
 }
 
 .portabl {
